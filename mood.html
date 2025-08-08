@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Mood</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: url('rain bgp.jpeg') no-repeat center center fixed; background-size: cover;">
+  <header>
+    <a href="index.html" class="home-btn">Home</a>
+    <h1>Choose Your Mood</h1>
+  </header>
+
+  <main>
+    <h1>Feeling something? Let's quote it.</h1>
+    <form action="quotes.html" method="GET">
+      <select name="mood" required>
+        <option value="">Select a mood</option>
+        <option value="MotivationalandInspirational">Motivational and Inspirational</option>
+        <option value="HumurousandLighthearted">Humurous and Lighthearted</option>
+        <option value="RomanticandLoveFilled">romantic and love filled</option>
+        <option value="ReflectiveandPhilosophical">reflective and philosophical</option>
+        <option value="CalmingandPeaceful">calming and peaceful</option>
+      </select>
+      <button type="submit">Get Quote</button>
+    </form>
+  </main>
+
+  <footer>
+    <a href="https://github.com/yourusername/quote-website" target="_blank">View on GitHub</a>
+  </footer>
+</body>
+</html>
